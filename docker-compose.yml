@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  simplefitnesstrackerapi:
+    image: simplefitnesstrackerapi
+    build:
+      context: .
+      dockerfile: SimpleFitnessTrackerAPI\Dockerfile
